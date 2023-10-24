@@ -116,7 +116,7 @@ _G.packer_plugins = {
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
   ["go.nvim"] = {
-    config = { "\27LJ\2\n�\2\0\0\4\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0=\3\a\2B\0\2\1K\0\1\0\20lsp_inlay_hints\1\0\6\venable\2\14highlight\fComment\16other_hints\1\25show_parameter_hints\2\27parameter_hints_prefix\t \23show_variable_name\2\26lsp_diag_virtual_text\1\0\3\28lsp_document_formatting\2\19lsp_diag_signs\2\nicons\1\1\0\2\nspace\3\0\vprefix\b●\nsetup\ago\frequire\0" },
+    config = { "\27LJ\2\n�\2\0\0\4\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0=\3\a\2B\0\2\1K\0\1\0\20lsp_inlay_hints\1\0\6\16other_hints\1\25show_parameter_hints\2\27parameter_hints_prefix\t \23show_variable_name\2\venable\2\14highlight\fComment\26lsp_diag_virtual_text\1\0\3\28lsp_document_formatting\2\nicons\1\19lsp_diag_signs\2\1\0\2\nspace\3\0\vprefix\b●\nsetup\ago\frequire\0" },
     loaded = true,
     path = "/home/matvey/.local/share/nvim/site/pack/packer/start/go.nvim",
     url = "https://github.com/ray-x/go.nvim"
@@ -157,7 +157,7 @@ _G.packer_plugins = {
     url = "https://github.com/williamboman/mason.nvim"
   },
   ["nvim-autopairs"] = {
-    config = { "\27LJ\2\n}\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\2\22ignored_next_char\17[%w%.%\"%'%&]\30enable_check_bracket_line\1\nsetup\19nvim-autopairs\frequire\0" },
+    config = { "\27LJ\2\n}\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\2\30enable_check_bracket_line\1\22ignored_next_char\17[%w%.%\"%'%&]\nsetup\19nvim-autopairs\frequire\0" },
     loaded = true,
     path = "/home/matvey/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
@@ -223,6 +223,14 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: nvim-autopairs
+time([[Config for nvim-autopairs]], true)
+try_loadstring("\27LJ\2\n}\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\2\30enable_check_bracket_line\1\22ignored_next_char\17[%w%.%\"%'%&]\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
+time([[Config for nvim-autopairs]], false)
+-- Config for: go.nvim
+time([[Config for go.nvim]], true)
+try_loadstring("\27LJ\2\n�\2\0\0\4\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0=\3\a\2B\0\2\1K\0\1\0\20lsp_inlay_hints\1\0\6\16other_hints\1\25show_parameter_hints\2\27parameter_hints_prefix\t \23show_variable_name\2\venable\2\14highlight\fComment\26lsp_diag_virtual_text\1\0\3\28lsp_document_formatting\2\nicons\1\19lsp_diag_signs\2\1\0\2\nspace\3\0\vprefix\b●\nsetup\ago\frequire\0", "config", "go.nvim")
+time([[Config for go.nvim]], false)
 -- Config for: trouble.nvim
 time([[Config for trouble.nvim]], true)
 try_loadstring("\27LJ\2\nC\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\nicons\1\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
@@ -231,18 +239,10 @@ time([[Config for trouble.nvim]], false)
 time([[Config for poimandres.nvim]], true)
 try_loadstring("\27LJ\2\nk\0\0\3\0\6\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\0016\0\3\0009\0\4\0'\2\5\0B\0\2\1K\0\1\0\27colorscheme poimandres\bcmd\bvim\nsetup\15poimandres\frequire\0", "config", "poimandres.nvim")
 time([[Config for poimandres.nvim]], false)
--- Config for: go.nvim
-time([[Config for go.nvim]], true)
-try_loadstring("\27LJ\2\n�\2\0\0\4\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0=\3\a\2B\0\2\1K\0\1\0\20lsp_inlay_hints\1\0\6\venable\2\14highlight\fComment\16other_hints\1\25show_parameter_hints\2\27parameter_hints_prefix\t \23show_variable_name\2\26lsp_diag_virtual_text\1\0\3\28lsp_document_formatting\2\19lsp_diag_signs\2\nicons\1\1\0\2\nspace\3\0\vprefix\b●\nsetup\ago\frequire\0", "config", "go.nvim")
-time([[Config for go.nvim]], false)
 -- Config for: Comment.nvim
 time([[Config for Comment.nvim]], true)
 try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0", "config", "Comment.nvim")
 time([[Config for Comment.nvim]], false)
--- Config for: nvim-autopairs
-time([[Config for nvim-autopairs]], true)
-try_loadstring("\27LJ\2\n}\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\2\22ignored_next_char\17[%w%.%\"%'%&]\30enable_check_bracket_line\1\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
-time([[Config for nvim-autopairs]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
