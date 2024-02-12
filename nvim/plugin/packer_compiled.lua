@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/matvey/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?.lua;/home/matvey/.cache/nvim/packer_hererocks/2.1.0-beta3/share/lua/5.1/?/init.lua;/home/matvey/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?.lua;/home/matvey/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/matvey/.cache/nvim/packer_hererocks/2.1.0-beta3/lib/lua/5.1/?.so"
+local package_path_str = "/home/matvey/.cache/nvim/packer_hererocks/2.1.1694285958/share/lua/5.1/?.lua;/home/matvey/.cache/nvim/packer_hererocks/2.1.1694285958/share/lua/5.1/?/init.lua;/home/matvey/.cache/nvim/packer_hererocks/2.1.1694285958/lib/luarocks/rocks-5.1/?.lua;/home/matvey/.cache/nvim/packer_hererocks/2.1.1694285958/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/matvey/.cache/nvim/packer_hererocks/2.1.1694285958/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -116,7 +116,7 @@ _G.packer_plugins = {
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
   ["go.nvim"] = {
-    config = { "\27LJ\2\n£\2\0\0\4\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0=\3\a\2B\0\2\1K\0\1\0\20lsp_inlay_hints\1\0\6\16other_hints\1\25show_parameter_hints\2\27parameter_hints_prefix\tï” \23show_variable_name\2\venable\2\14highlight\fComment\26lsp_diag_virtual_text\1\0\3\28lsp_document_formatting\2\nicons\1\19lsp_diag_signs\2\1\0\2\nspace\3\0\vprefix\bâ—\nsetup\ago\frequire\0" },
+    config = { "\27LJ\2\n\17\0\1\1\0\1\0\0027\0\0\0K\0\1\0\6_\25\0\2\3\0\1\0\4\18\2\0\0007\1\0\0007\2\0\0K\0\1\0\6_\25\0\2\3\0\1\0\4\18\2\0\0007\1\0\0007\2\0\0K\0\1\0\6_!\0\3\5\0\1\0\6\18\3\0\0\18\4\1\0007\2\0\0007\4\0\0007\3\0\0K\0\1\0\6_×\t\1\0\5\0\25\0\0296\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\0025\3\6\0005\4\a\0=\4\b\3=\3\t\0025\3\n\0=\3\v\0024\3\0\0=\3\f\0025\3\r\0=\3\14\0025\3\15\0=\3\16\0023\3\17\0=\3\18\0023\3\19\0=\3\20\0023\3\21\0=\3\22\0023\3\23\0=\3\24\2B\0\2\1K\0\1\0\fon_exit\0\14on_stderr\0\14on_stdout\0\16on_jobstart\0\rfloaterm\1\0\3\vheight\4ÜŠ®\15¨¸½ÿ\3\14posititon\tauto\nwidth\4Í™³æ\fÌ™óş\3\17dap_debug_vt\1\0\2\21enabled_commands\2\15all_frames\2\18dap_debug_gui\20lsp_inlay_hints\1\0\f\22only_current_line\1\venable\2\14highlight\fComment\24right_align_padding\3\6\16right_align\1\26max_len_align_padding\3\1\18max_len_align\1\23other_hints_prefix\b=> \25show_parameter_hints\2\27parameter_hints_prefix\nó°Š• \23show_variable_name\2\30only_current_line_autocmd\15CursorHold\15diagnostic\17virtual_text\1\0\2\vprefix\bâ– \nspace\3\0\1\0\4\14underline\2\thdlr\1\21update_in_insert\1\nsigns\2\nicons\1\0\2\15breakpoint\tğŸ§˜\15currentpos\tğŸƒ\1\0\"\rgoimport\ngopls\18verbose_tests\2\28lsp_document_formatting\2\ftrouble\1\fluasnip\1\17lsp_codelens\2\16lsp_keymaps\2\25iferr_vertical_shift\3\4\16lsp_gofumpt\1\flsp_cfg\1\24comment_placeholder\5\25gotests_template_dir\5\21gotests_template\5\16tag_options\19json=omitempty\18tag_transform\1\17max_line_len\3€\1\ngofmt\fgofumpt\15fillstruct\ngopls\rtest_efm\1\ago\ago\21disable_defaults\1\20run_in_floaterm\1\16test_runner\ago\16textobjects\2\15build_tags\14tag1,tag2\16dap_retries\3\20\16dap_timeout\3\15\rdap_port\3©®\2\21dap_debug_keymap\2\14dap_debug\2\18sign_priority\3\5\fverbose\1\20gocoverage_sign\bâ–ˆ\22gopls_remote_auto\2\nsetup\ago\frequire\0" },
     loaded = true,
     path = "/home/matvey/.local/share/nvim/site/pack/packer/start/go.nvim",
     url = "https://github.com/ray-x/go.nvim"
@@ -223,26 +223,26 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: nvim-autopairs
-time([[Config for nvim-autopairs]], true)
-try_loadstring("\27LJ\2\n}\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\2\30enable_check_bracket_line\1\22ignored_next_char\17[%w%.%\"%'%&]\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
-time([[Config for nvim-autopairs]], false)
--- Config for: go.nvim
-time([[Config for go.nvim]], true)
-try_loadstring("\27LJ\2\n£\2\0\0\4\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0=\3\a\2B\0\2\1K\0\1\0\20lsp_inlay_hints\1\0\6\16other_hints\1\25show_parameter_hints\2\27parameter_hints_prefix\tï” \23show_variable_name\2\venable\2\14highlight\fComment\26lsp_diag_virtual_text\1\0\3\28lsp_document_formatting\2\nicons\1\19lsp_diag_signs\2\1\0\2\nspace\3\0\vprefix\bâ—\nsetup\ago\frequire\0", "config", "go.nvim")
-time([[Config for go.nvim]], false)
--- Config for: trouble.nvim
-time([[Config for trouble.nvim]], true)
-try_loadstring("\27LJ\2\nC\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\nicons\1\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
-time([[Config for trouble.nvim]], false)
--- Config for: poimandres.nvim
-time([[Config for poimandres.nvim]], true)
-try_loadstring("\27LJ\2\nk\0\0\3\0\6\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\0016\0\3\0009\0\4\0'\2\5\0B\0\2\1K\0\1\0\27colorscheme poimandres\bcmd\bvim\nsetup\15poimandres\frequire\0", "config", "poimandres.nvim")
-time([[Config for poimandres.nvim]], false)
 -- Config for: Comment.nvim
 time([[Config for Comment.nvim]], true)
 try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fComment\frequire\0", "config", "Comment.nvim")
 time([[Config for Comment.nvim]], false)
+-- Config for: trouble.nvim
+time([[Config for trouble.nvim]], true)
+try_loadstring("\27LJ\2\nC\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\1\nicons\1\nsetup\ftrouble\frequire\0", "config", "trouble.nvim")
+time([[Config for trouble.nvim]], false)
+-- Config for: nvim-autopairs
+time([[Config for nvim-autopairs]], true)
+try_loadstring("\27LJ\2\n}\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\2\30enable_check_bracket_line\1\22ignored_next_char\17[%w%.%\"%'%&]\nsetup\19nvim-autopairs\frequire\0", "config", "nvim-autopairs")
+time([[Config for nvim-autopairs]], false)
+-- Config for: poimandres.nvim
+time([[Config for poimandres.nvim]], true)
+try_loadstring("\27LJ\2\nk\0\0\3\0\6\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\0016\0\3\0009\0\4\0'\2\5\0B\0\2\1K\0\1\0\27colorscheme poimandres\bcmd\bvim\nsetup\15poimandres\frequire\0", "config", "poimandres.nvim")
+time([[Config for poimandres.nvim]], false)
+-- Config for: go.nvim
+time([[Config for go.nvim]], true)
+try_loadstring("\27LJ\2\n\17\0\1\1\0\1\0\0027\0\0\0K\0\1\0\6_\25\0\2\3\0\1\0\4\18\2\0\0007\1\0\0007\2\0\0K\0\1\0\6_\25\0\2\3\0\1\0\4\18\2\0\0007\1\0\0007\2\0\0K\0\1\0\6_!\0\3\5\0\1\0\6\18\3\0\0\18\4\1\0007\2\0\0007\4\0\0007\3\0\0K\0\1\0\6_×\t\1\0\5\0\25\0\0296\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0005\3\4\0=\3\5\0025\3\6\0005\4\a\0=\4\b\3=\3\t\0025\3\n\0=\3\v\0024\3\0\0=\3\f\0025\3\r\0=\3\14\0025\3\15\0=\3\16\0023\3\17\0=\3\18\0023\3\19\0=\3\20\0023\3\21\0=\3\22\0023\3\23\0=\3\24\2B\0\2\1K\0\1\0\fon_exit\0\14on_stderr\0\14on_stdout\0\16on_jobstart\0\rfloaterm\1\0\3\vheight\4ÜŠ®\15¨¸½ÿ\3\14posititon\tauto\nwidth\4Í™³æ\fÌ™óş\3\17dap_debug_vt\1\0\2\21enabled_commands\2\15all_frames\2\18dap_debug_gui\20lsp_inlay_hints\1\0\f\22only_current_line\1\venable\2\14highlight\fComment\24right_align_padding\3\6\16right_align\1\26max_len_align_padding\3\1\18max_len_align\1\23other_hints_prefix\b=> \25show_parameter_hints\2\27parameter_hints_prefix\nó°Š• \23show_variable_name\2\30only_current_line_autocmd\15CursorHold\15diagnostic\17virtual_text\1\0\2\vprefix\bâ– \nspace\3\0\1\0\4\14underline\2\thdlr\1\21update_in_insert\1\nsigns\2\nicons\1\0\2\15breakpoint\tğŸ§˜\15currentpos\tğŸƒ\1\0\"\rgoimport\ngopls\18verbose_tests\2\28lsp_document_formatting\2\ftrouble\1\fluasnip\1\17lsp_codelens\2\16lsp_keymaps\2\25iferr_vertical_shift\3\4\16lsp_gofumpt\1\flsp_cfg\1\24comment_placeholder\5\25gotests_template_dir\5\21gotests_template\5\16tag_options\19json=omitempty\18tag_transform\1\17max_line_len\3€\1\ngofmt\fgofumpt\15fillstruct\ngopls\rtest_efm\1\ago\ago\21disable_defaults\1\20run_in_floaterm\1\16test_runner\ago\16textobjects\2\15build_tags\14tag1,tag2\16dap_retries\3\20\16dap_timeout\3\15\rdap_port\3©®\2\21dap_debug_keymap\2\14dap_debug\2\18sign_priority\3\5\fverbose\1\20gocoverage_sign\bâ–ˆ\22gopls_remote_auto\2\nsetup\ago\frequire\0", "config", "go.nvim")
+time([[Config for go.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

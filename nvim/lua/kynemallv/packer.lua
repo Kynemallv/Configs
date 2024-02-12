@@ -79,8 +79,11 @@ return require('packer').startup(function(use)
     'ray-x/go.nvim',
     config = function()
       require('go').setup({
-        lsp_diag_virtual_text = { space = 0, prefix = '●' },
-        lsp_diag_signs = true,
+        diagnostic = {
+          update_in_insert = true,
+          virtural_text = { space = 0, prefix = '●' },
+          signs = true
+        },
         lsp_document_formatting = true,
         lsp_inlay_hints = {
           enable = true,
